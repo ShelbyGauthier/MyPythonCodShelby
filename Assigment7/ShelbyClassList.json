@@ -1,0 +1,7 @@
+[
+{"ProfessorName" : "Dr.Himes", "Class" : ["Into to Computer Science"], "Time" : "Wednesday", "Location" : "Bowman Hall 207"},
+{"ProfessorName" : "Professor Stroud", "Class" : ["Digital Curcuits"], "Time" : "Tuesday-Thurday", "Location" : "Bowman Hall 203"},
+{"ProfessorName" : "Professor Fink", "Class" : ["Computer Triage"], "Time" : "Monday", "Location" : "CSI 121"},
+{"ProfessorName" : "Professor Billetz", "Class" : ["Roboptics Development"], "Time" : "Firdays", "Location" : "CSI 206"},
+{"ProfessorName" : "Mark Cohen", "Class" : ["Phython"], "Time" : "TBA", "Location" : "On-line"}
+]
