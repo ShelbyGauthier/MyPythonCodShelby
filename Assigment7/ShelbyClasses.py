@@ -17,8 +17,6 @@ def Search(ProfessorName):
             print "%s" % Class["ProfessorName"]
             print "%s" % Class["Location"]
             print "%s" % Class["Time"]
-                
-            
 def main():
     ProfessorName = Epic.userString("Enter Professor Name:")
     Search(ProfessorName)
