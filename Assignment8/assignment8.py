@@ -5,6 +5,7 @@ import urllib2
 
 
 def readJson(websiteLink):
+    
     #get the url from the apixu website
     
     url = "https://api.apixu.com/v1/current.json?key=7dff8dbe59a5465686504422172404&q=" 
@@ -18,7 +19,9 @@ def printWeather(weatherStuff):
     #print the weather
     
     print "Here is the current weather for %s %s" % (weatherStuff['location']['name'], weatherStuff['location']['region'])
+    
     print "%s degrees(F) and %s" %(weatherStuff['current']['temp_f'],weatherStuff['current']['condition']['text'])
+    
     print "It really feels like %s degrees(F) though" % (weatherStuff['current']['feelslike_f'])
     
     return weatherStuff
